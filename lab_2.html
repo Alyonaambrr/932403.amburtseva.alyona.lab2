@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Личная страница Амбурцевой Алёны — предпринимателя и стартапера">
+    <meta name="author" content="Амбурцева Алёна">
+    <title>Амбурцева Алёна — предприниматель и стартапер</title>
+
+    <link rel="stylesheet" href="lab_2.css">
+
+    <style>
+        footer a {
+            color: var(--accent-color);
+            text-decoration: none;
+            border-bottom: 1px dashed var(--accent-color);
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: #fff;
+            border-bottom-color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <h1>Амбурцева Алёна</h1>
+        <p>Предприниматель • Стартапер • Основатель проектов</p>
+    </header>
+
+    <div class="container">
+        <main class="main-content">
+
+            <img class="portrait"
+                 src="images/photo.jpg"
+                 alt="Портрет Амбурцевой Алёны, предпринимателя и стартапера"
+                 width="180"
+                 height="180">
+
+            <section id="skills" class="section">
+                <h2>Навыки</h2>
+                <ul class="skills">
+                    <li><strong>Маркетинг</strong> — продвижение продуктов, анализ рынка, работа с воронками продаж</li>
+                    <li><strong>Управление проектами</strong> — планирование задач, распределение обязанностей, контроль сроков и результата</li>
+                    <li><strong>Финансовое планирование</strong> — юнит-экономика, финмодели, привлечение инвестиций</li>
+                    <li><strong>Работа с командой</strong> — подбор людей, мотивация, организация совместной работы</li>
+                </ul>
+            </section>
+
+            <section id="projects" class="section">
+                <h2>Проекты</h2>
+                <ol class="projects">
+                    <li>Онлайн-платформа для поиска инвестиций в стартапы ранних стадий</li>
+                    <li>Сервис доставки здорового питания по подписке</li>
+                    <li>Мобильное приложение для трекинга личных финансов с геймификацией</li>
+                    <li>Образовательный курс по запуску стартапов без бюджета</li>
+                </ol>
+            </section>
+
+            <form class="feedback-form" action="#" method="post">
+                <h2>Связаться со мной</h2>
+
+                <label for="name">Имя</label>
+                <input type="text"
+                       id="name"
+                       name="name"
+                       placeholder="Введите ваше имя"
+                       required>
+
+                <label for="email">Email</label>
+                <input type="email"
+                       id="email"
+                       name="email"
+                       placeholder="example@mail.com"
+                       required>
+
+                <label for="message">Сообщение</label>
+                <textarea id="message"
+                          name="message"
+                          placeholder="Расскажите о вашей идее или проекте..."
+                          required></textarea>
+
+                <button type="submit" style="cursor: pointer;">Отправить</button>
+            </form>
+
+        </main>
+
+        <aside class="aside">
+            <h2>Любимые инструменты</h2>
+            <ul>
+                <li>🧠 Notion — для планирования и заметок</li>
+                <li>📊 Trello — для управления задачами</li>
+                <li>📈 Google Analytics — для анализа трафика</li>
+                <li>💬 Telegram — для быстрой связи с командой</li>
+            </ul>
+
+            <h2 class="aside-title">Ключевая ценность</h2>
+            <p>«Создавать продукты, которые решают реальные проблемы людей и делают жизнь проще».</p>
+
+            <span class="badge">Top skill</span>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2026 Амбурцева Алёна. Все права защищены.</p>
+        <p><a href="#skills">Навыки</a> | <a href="#projects">Проекты</a></p>
+    </footer>
+
+</body>
+</html>
