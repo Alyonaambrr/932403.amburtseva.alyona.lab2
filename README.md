@@ -10,15 +10,15 @@
 ### Файлы проекта
 
 lab2/
-├── lab_2.html      — главная страница
-├── lab_2.css       — стили
-├── README.md       — описание (этот файл)
-└── images/
-└── photo.jpg   — моё фото
+1. lab_2.html      — главная страница
+2. lab_2.css       — стили
+3. README.md       — описание (этот файл)
+images/
+   photo.jpg   — моё фото
 
 #### Что реализовано
 
-- Внешний файл стилей style.css
+- Внешний файл стилей lab_2.css
 - CSS-переменные для цветов и шрифтов
 - Позиционирование: static, relative, absolute
 - Состояния: :hover, :active, :focus, :visited
