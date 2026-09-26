@@ -13,6 +13,7 @@ lab2/
 1. lab_2.html      — главная страница
 2. lab_2.css       — стили
 3. README.md       — описание (этот файл)
+
 images/
    photo.jpg   — моё фото
 
